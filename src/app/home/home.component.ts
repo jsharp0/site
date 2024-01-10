@@ -17,7 +17,9 @@ import {
           <h1 class="thin">Web Development</h1>
           <h3>Crafting Pixel-Perfect Frontend Solutions.</h3>
         </span>
-        <button class="btn outline">Explore Our Portfolio</button>
+        <button class="btn outline" [routerLink]="['/', 'samples']">
+          Explore Our Portfolio
+        </button>
       </div>
     </div>
     <div class="what-we-use">
@@ -28,7 +30,9 @@ import {
         <app-what-we-use-card heading="REACT" [icon]="faReact" />
         <app-what-we-use-card heading="ANGULAR" [icon]="faAngular" />
         <app-what-we-use-card heading="BOOTSTRAP" [icon]="faBootstrap" />
-        <div class="show-more" routerLink="samples"><h3>SEE MORE</h3></div>
+        <div class="show-more" [routerLink]="['/', 'samples']">
+          <h3>SEE MORE</h3>
+        </div>
       </div>
     </div>
     <div class="what-we-do content-grid">
@@ -41,7 +45,9 @@ import {
           project reflects precision and responsiveness while engaging your
           audience effectively.
         </p>
-        <button class="btn light" routerLink="services">Learn More</button>
+        <button class="btn light" [routerLink]="['/', 'services']">
+          Learn More
+        </button>
       </div>
       <div class="what-we-do-img"></div>
     </div>`,

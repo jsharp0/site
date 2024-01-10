@@ -6,7 +6,9 @@ import { Component, Input } from '@angular/core';
     <img [src]="imagePath" />
     <div class="text-content">
       <span class="heading">{{ name }}</span>
-      <button class="btn light"><a [href]="url">View Live Demo</a></button>
+      <button class="btn light">
+        <a [href]="url" target="_blank">View Live Demo</a>
+      </button>
     </div>
   </div>`,
   styleUrls: ['./work-card.component.scss'],

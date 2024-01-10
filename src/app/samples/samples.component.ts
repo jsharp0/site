@@ -35,42 +35,42 @@ import { Component } from '@angular/core';
 export class SamplesComponent {
   sampleSites = [
     {
-      url: 'www.pixelgrove-web-development.com/',
+      url: 'https://pixelgrove-web-development.github.io/interactive-comments-section/',
       name: 'Comment section demo',
       imagePath: 'assets/comment-sections-preview.jpg',
     },
     {
-      url: 'www.pixelgrove-web-development.com/',
+      url: 'https://pixelgrove-web-development.github.io/skilled-elearning/',
       name: 'Skilled e-learning site demo',
       imagePath: 'assets/elearning-preview.jpg',
     },
     {
-      url: 'www.pixelgrove-web-development.com/',
+      url: 'https://pixelgrove-web-development.github.io/ecommerce-product-page/',
       name: 'E-commerce product demo',
-      imagePath: 'assets/esneaker-preview.jpg',
+      imagePath: 'assets/esneakers-preview.jpg',
     },
     {
-      url: 'www.pixelgrove-web-development.com/',
+      url: 'https://pixelgrove-web-development.github.io/audiophile/',
       name: 'Four card feature demo',
       imagePath: 'assets/four-card-preview.jpg',
     },
     {
-      url: 'www.pixelgrove-web-development.com/',
+      url: 'https://pixelgrove-web-development.github.io/github-user-search/',
       name: 'Github user search demo',
       imagePath: 'assets/github-user-search-preview.jpg',
     },
+    // {
+    //   url: 'https://pixelgrove-web-development.github.io/loopstudios/',
+    //   name: 'Loopstudios demo',
+    //   imagePath: 'assets/loopstudios-preview.jpg',
+    // },
     {
-      url: 'www.pixelgrove-web-development.com/',
-      name: 'Loopstudios demo',
-      imagePath: 'assets/loopstudios-preview.jpg',
-    },
-    {
-      url: 'www.pixelgrove-web-development.com/',
+      url: 'https://pixelgrove-web-development.github.io/url-shortening-app/',
       name: 'URL shortener demo',
       imagePath: 'assets/url-shortener-preview.jpg',
     },
     {
-      url: 'www.pixelgrove-web-development.com/audiophile',
+      url: 'https://pixelgrove-web-development.github.io/audiophile/audiophile/home',
       name: 'Audiophile demo',
       imagePath: 'assets/audiophile-preview.jpg',
     },
